@@ -11,7 +11,7 @@ defmodule Duper.Application do
       Duper.Results,
       {Duper.PathFinder, "."},
       Duper.WorkerSupervisor,
-      {Duper.Gatherer, 1}
+      {Duper.Gatherer, 4}
     ]
 
     # See https://hexdocs.pm/elixir/Supervisor.html
